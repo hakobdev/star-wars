@@ -1,0 +1,69 @@
+.homePage__div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.title {
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  color: rgb(217, 218, 220);
+}
+
+.sides__div {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  gap: 30px;
+}
+
+.sides__div_1 {
+  width: 190px;
+  height: 330px;
+  background-color: rgb(54, 55, 56);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.sides__div_1 p {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 7px;
+  font-weight: 666;
+  background-color: rgb(154, 155, 157);
+  border-radius: 0 0 10px 10px;
+}
+
+.sides__div_1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.sides__div_light p {
+  color: whit;
+}
+.sides__div_dark p {
+  color: black;
+}
+
+.sides__div_light:hover p {
+  background-color: rgb(66, 108, 92);
+}
+
+.sides__div_dark:hover p {
+  background-color: rgb(120, 47, 47);
+}
+
+.sides__div_1:hover {
+  transition: 0.2s;
+  transform: scaleY(1.02);
+}

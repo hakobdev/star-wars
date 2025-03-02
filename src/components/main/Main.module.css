@@ -1,0 +1,21 @@
+.main_dark {
+  width: 100%;
+  min-height: 95vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("https://wallpapers.com/images/hd/dark-darth-vader-3840-x-2160-star-wars-9tr2d47kxq5ifvpc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps background static */
+}
+
+.main_light {
+  width: 100%;
+  min-height: 95vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/4K-Star-Wars-Wallpaper-Desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps background static */
+}
