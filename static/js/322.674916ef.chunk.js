@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkstar_wars=self.webpackChunkstar_wars||[]).push([[322],{322:(s,e,i)=>{i.r(e),i.d(e,{default:()=>p});i(43);const l="People-film_ul__film__Hquw-",d="People-film_p1__it6TA";var a=i(579);const p=s=>(0,a.jsx)("ul",{className:l,children:s.data.sort(((s,e)=>+s.episode_id-+e.episode_id)).map((s=>(0,a.jsxs)("li",{children:[(0,a.jsxs)("p",{className:d,children:["Episode ",s.episode_id]}),(0,a.jsx)("p",{children:s.title})]},s.episode_id)))})}}]);
+//# sourceMappingURL=322.674916ef.chunk.js.map
