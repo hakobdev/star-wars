@@ -13,4 +13,4 @@ export const REACT_APP_SWAPI_PEOPLE_IMAGE_FORMAT =
 export const REACT_APP_SWAPI_PEOPLE_ALL =
   process.env.REACT_APP_SWAPI_PEOPLE_ALL;
 
-export const REPO_NAME = process.env.REPO_NAME;
+export const REPO_NAME = process.env.REACT_APP_REPO_NAME;
