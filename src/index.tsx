@@ -7,7 +7,7 @@ import ThemeProvider from "./context/theme/Theme-provider";
 import { REPO_NAME } from "./constants/api-constants";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <BrowserRouter basename={`/${REPO_NAME}/`}>
+  <BrowserRouter basename={REPO_NAME}>
     <Provider store={store}>
       <ThemeProvider>
         <App />
